@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- --------------------------- bootstrap css link --------------------------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body form_bg">
+                        <form>
+                            <label for="number" class="label_text mb-2">Type your number</label>
+                            <input type="number" class="my_inp form-control mb-3" id="number" placeholder="Enter a number">
+                            <button type="button" class="my_btn btn btn-sm btn-success">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h1>Javascript Loop </h1>
+                                <span class="user_inp_table"></span>
+                                <p class="head_text"></p>
+                            </div>
+                            <div class="buttons">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="mb-0 pb-2 color_text">your selected color is :</p>
+                                 <button style="width: 20px; height: 20px; border-radius: 50%; border: none;"  class="user_color"></button>
+                                </div>
+                                <button class="red btn btn-sm btn-danger " id="for_loop">Red</button>
+                                <button class="green btn btn-sm btn-success" id="while_loop">Green</button>
+                                <button class="blue btn btn-sm btn-primary" id="do_while_loop">Blue</button>
+                                <button class="dark btn btn-sm btn-dark" id="do_while_loop">dark</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-body">
+                        <h1 class="result p-5">Your Result Here </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------- bootstrap js cdn link ---------------------------- -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+<!-- ---------------------------- my coustom js link ---------------------------- -->
+ <script src="js/script.js"></script>
+</body>
+</html>
